@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./Form.css";
 
 class Form extends Component {
     state = {
@@ -17,6 +18,7 @@ class Form extends Component {
 
     render() {
         return (
+
             <form action="https://api.web3forms.com/submit" method="POST">
 
                 <input type="hidden" name="access_key" value="b43d4a41-c59a-4480-ab29-535e307535e6"></input>
@@ -47,6 +49,7 @@ class Form extends Component {
                 <br></br>
                 <button type="submit"> Send </button>
             </form>
+
         )
     }
 }
