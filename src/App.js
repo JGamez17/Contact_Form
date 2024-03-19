@@ -10,9 +10,8 @@ import Form from './components/Form';
 
 const App = () => {
   return (
-    <Container>
-      <Form />
-    </Container>
+
+    <Form />
   );
 };
 
