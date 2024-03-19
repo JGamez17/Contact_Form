@@ -1,9 +1,9 @@
-.Form{
-    background-image: linear-gradient(to bottom blue, yellow);
-  }
+.Form {
+  background-image: linear-gradient(to bottom rgb(1, 1, 13), yellow);
+}
 
-  .button:hover {
-    background-color: #6d76f7;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
-  }
+.button:hover {
+  background-color: #000000;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
